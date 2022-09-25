@@ -1,0 +1,41 @@
+<div class="modal fade" id="modalJefeAdd" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+		    <div class="modal-content">
+			      <div class="modal-header">
+				        <h5 class="modal-title" id="exampleModalLabel">Registrar Jefe Lab</h5>
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				      </div>
+				      <div class="modal-body">
+				        <form autocomplete="off">
+				          <div class="form-group">
+				            <label for="nombreAdd" class="col-form-label">Nombre:</label>
+				            <input type="text" class="form-control" id="nombreAdd" autofocus>
+				          </div>
+				          <div class="form-group">
+				            <label for="usuarioAdd" class="col-form-label">Usuario:</label>
+				            <input type="text" class="form-control" id="usuarioAdd">
+				          </div>
+				          <div class="form-group">
+				            <label for="contraseñaAdd" class="col-form-label">Contraseña:</label>
+				            <input type="password" class="form-control" id="contraseñaAdd">
+				          </div>
+				          <div class="form-group">
+				            <label for="laboratorioAdd" class="col-form-label">Laboratorio:</label>
+				            <input type="text" class="form-control" id="laboratorioAdd">
+				          </div>
+				          <label for="actualAdd" class="col-form-label">Actual:</label>
+				          <select class="form-control" id="actualAdd">
+				            <option value="1">SI</option>
+				            <option value="0">NO</option>
+				          </select>
+				        </form>
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+				        <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="agregarJefe();">Agregar</button>
+			      </div>
+		    </div>
+	  </div>
+</div>

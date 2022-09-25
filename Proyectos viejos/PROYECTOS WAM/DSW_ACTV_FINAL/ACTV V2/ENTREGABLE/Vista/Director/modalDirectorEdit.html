@@ -1,0 +1,38 @@
+<div class="modal fade" id="modalDirectorEdit" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+		    <div class="modal-content">
+			      <div class="modal-header">
+				        <h5 class="modal-title" id="exampleModalLabel">Actualizar Director Lab</h5>
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				      </div>
+				      <div class="modal-body">
+				        <form autocomplete="off">
+				          <div class="form-group">
+				          	<input type="hidden" id="idEdit">
+				            <label for="nombreEdit" class="col-form-label">Nombre:</label>
+				            <input type="text" class="form-control" id="nombreEdit" autofocus>
+				          </div>
+				          <div class="form-group">
+				            <label for="usuarioEdit" class="col-form-label">Usuario:</label>
+				            <input type="text" class="form-control" id="usuarioEdit">
+				          </div>
+				          <div class="form-group">
+				            <label for="firmaEdit" class="col-form-label">Firma:</label>
+				            <input type="text" class="form-control" id="firmaEdit">
+				          </div>
+				          <label for="actualEdit" class="col-form-label">Actual:</label>
+				          <select class="form-control" id="actualEdit">
+				            <option value="1">SI</option>
+				            <option value="0">NO</option>
+				          </select>
+				        </form>
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+				        <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="actualizarDirector();">Actualizar</button>
+			      </div>
+		    </div>
+	  </div>
+</div>
